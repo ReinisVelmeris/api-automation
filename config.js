@@ -1,17 +1,12 @@
 export const config = {
+    DEV: {
+        host: 'http://localhost:1234'
+    },
     STG: {
-        host: 'https://gorest.co.in/public/v2',
-        token: '',
-        username: 'Tenali Ramakrishna',
-        gender: 'male',
-        status: 'active'
+        host: 'http://localhost:1235'
     },
     PROD: {
-        host: 'https://gorest.co.in/public/v2',
-        token: '',
-        username: 'Tenali Ramakrishna',
-        gender: 'male',
-        status: 'active'
+        host: 'http://localhost:1236'
     }
 }
 
